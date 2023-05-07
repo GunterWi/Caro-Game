@@ -1,77 +1,24 @@
 # Caro-Game
 
-### Dự án cá nhân. 
+### Dự án cá nhân
 
-# Image:
+## 0. Giới thiệu
 
+Game Caro chạy bằng socket.
+Hiện tại game chỉ đơn giản kết nối giữa server client phải chỉnh địa chỉ IP ở trong code.
 
-[![IMAGE ALT TEXT HERE](https://i.ibb.co/sWZTr3C/Screenshot-2023-05-07-175914.png)]
-# Features
+### Các tính năng
+- Kết nối tới server bằng địa chỉ IP của server.
+- Sử dụng multithread trong java
+- Đánh caro, Kiểm tra thắng thua.
+- Đếm ngược thời gian khi đánh caro (đồng bộ đếm ngược giữa client-server)
+- Chat khi đang chơi
+## Cài đặt
 
-![UI Flow](./References/CaroGameFlow.svg)
+Hướng dẫn setup:
 
-## Backend
+- Chạy Server [src/ServerSocket/Server.java](src/ServerSocket/Server.java)
+- Chạy Client [src/ClientSocket/Client.java](src/ClientSocket/Client.java)
+## Screenshots
 
-1. Capture game log:
-   - Text file
-1. Save/Load:
-   - Save and load game log
-   - Check savefile when load, detect edited file
-   - Ask to overwrite when 2 save has same name
-1. Music
-   - Find chill music
-1. Multilevel AI
-   - 2 - 3 level indicate with different colors. Green -> Red
-1. Multilevel Undo
-   - Using log
-1. Replay
-
-## Frontend
-
-1. Description for selection
-1. Keymap in all screen
-1. Shortcut for selection (Underline the distinc character)
-1. Search save file
-1. Sort save file by date desc
-
-## Game
-
-1. Game Mode (Available for both PvP and PvE):
-   1. Normal Mode
-   1. Rush Mode (Has time constraint, can be adjusted)
-1. PvP
-   - Ask for 2 player name
-1. PvE
-   - Ask for player name
-   - Ask for difficulties
-
-## Screens
-
-1. Main menu
-   - Logo
-   - New Game
-   - Load
-   - Settings
-   - Tutorial
-   - About
-     - Members (ID, Full name)
-     - Source code link
-   - Exit
-1. New Game
-1. Load
-1. Setting
-1. Tutorial
-1. About
-   - Members (ID, Full name)
-   - Source code link
-1. Esc Menu:
-   - New Game (Ask to save current game)
-   - Load (Ask to save current game)
-   - Save (Ask to save current game)
-   - Settings
-   - Tutorial (Ask to save current game)
-   - About
-     - Members (ID, Full name)
-     - Source code link
-   - Exit
-1. Game Mode Screens
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://i.ibb.co/sWZTr3C/Screenshot-2023-05-07-175914.png)
