@@ -2,7 +2,7 @@
 
 ### Dự án cá nhân. 
 
-# Demo img:
+# Image:
 
 [![IMAGE ALT TEXT HERE](https://i.ibb.co/sWZTr3C/Screenshot-2023-05-07-175914.png)]
 
