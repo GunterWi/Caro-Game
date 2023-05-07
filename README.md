@@ -2,7 +2,7 @@
 
 ### Dự án cá nhân
 
-## 0. Giới thiệu
+## Giới thiệu
 
 Game Caro chạy bằng socket.
 Hiện tại game chỉ đơn giản kết nối giữa server client phải chỉnh địa chỉ IP ở trong code.
