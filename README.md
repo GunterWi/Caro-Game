@@ -9,7 +9,6 @@ Hiện tại game chỉ đơn giản kết nối giữa server client phải ch�
 
 ### Các tính năng
 - Kết nối tới server bằng địa chỉ IP của server.
-- Sử dụng multithread trong java
 - Đánh caro, Kiểm tra thắng thua.
 - Đếm ngược thời gian khi đánh caro (đồng bộ đếm ngược giữa client-server)
 - Chat khi đang chơi
